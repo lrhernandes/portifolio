@@ -1,10 +1,11 @@
 <script setup>
+import Banner from "../components/Home/Banner.vue";
+import Tecs from "../components/Home/Tecs.vue";
 </script>
 
 <template>
+  <Banner />
   <main>
-    <h1 class="text-3xl font-bold underline text-red-500">
-    Hello world!
-  </h1>
+    <Tecs/>
   </main>
 </template>
